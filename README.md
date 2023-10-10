@@ -32,7 +32,7 @@ Some familiarity with Python and pip is assumed. The steps below are an example 
    overrides['liturgical'] = 'lit-ur-gic-al'
 
    prosomoiahelper.generate_prosomoia(
-       text,
+      text,
       'automela.byz',
       'prosomoia.byz',
       overrides)
@@ -64,7 +64,7 @@ Example 2 in the `examples` folder contains a concrete example.
 
 ### Finding element indices
 
-If you read the above, then you are probably wondering how to find the element indices. To do show, pass `print_syllable_index=True` to the `generate_prosomoia` method. This will print out a list of syllables and their assigned element indices. This can help you quickly locate the correct index.
+If you read the above, then you are probably wondering how to find the element indices. To do so, pass `print_syllable_index=True` to the `generate_prosomoia` method. This will print out a list of syllables and their assigned element indices. This can help you quickly locate the correct index.
 
 See the example below.
 
