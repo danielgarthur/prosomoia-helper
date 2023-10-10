@@ -1,0 +1,1158 @@
+{
+  "version": "1.0",
+  "appVersion": "0.4.4",
+  "pageSetup": {
+    "pageSize": "Letter",
+    "pageSizeUnit": "in",
+    "pageWidth": 816,
+    "pageHeight": 1056,
+    "topMargin": 96,
+    "bottomMargin": 96,
+    "leftMargin": 96,
+    "rightMargin": 96,
+    "headerMargin": 48,
+    "footerMargin": 48,
+    "showFooter": true,
+    "firstPageNumber": 1,
+    "lineHeight": 72,
+    "lyricsDefaultFontFamily": "Arial",
+    "lyricsDefaultFontSize": 16,
+    "lyricsDefaultFontWeight": "400",
+    "lyricsDefaultFontStyle": "normal",
+    "lyricsDefaultColor": "#000000",
+    "lyricsDefaultStrokeWidth": 0,
+    "lyricsVerticalOffset": -5.76,
+    "lyricsMinimumSpacing": 4.800000000000001,
+    "neumeDefaultFontFamily": "Neanes",
+    "neumeDefaultFontSize": 26.666666666666668,
+    "neumeDefaultColor": "#000000",
+    "neumeDefaultSpacing": 2.88,
+    "neumeDefaultStrokeWidth": 0,
+    "modeKeyDefaultColor": "#800000",
+    "modeKeyDefaultStrokeWidth": 0,
+    "modeKeyDefaultFontSize": 26.666666666666668,
+    "modeKeyDefaultHeightAdjustment": 0,
+    "accidentalDefaultColor": "#800000",
+    "accidentalDefaultStrokeWidth": 0,
+    "fthoraDefaultColor": "#800000",
+    "fthoraDefaultStrokeWidth": 0,
+    "heteronDefaultColor": "#800000",
+    "heteronDefaultStrokeWidth": 0,
+    "gorgonDefaultColor": "#800000",
+    "gorgonDefaultStrokeWidth": 0,
+    "measureBarDefaultColor": "#800000",
+    "measureBarDefaultStrokeWidth": 0,
+    "measureNumberDefaultColor": "#000000",
+    "measureNumberDefaultStrokeWidth": 0,
+    "noteIndicatorDefaultColor": "#800000",
+    "noteIndicatorDefaultStrokeWidth": 0,
+    "isonDefaultColor": "#800000",
+    "isonDefaultStrokeWidth": 0,
+    "koronisDefaultColor": "#800000",
+    "koronisDefaultStrokeWidth": 0,
+    "martyriaDefaultColor": "#800000",
+    "martyriaDefaultStrokeWidth": 0,
+    "tempoDefaultColor": "#800000",
+    "tempoDefaultStrokeWidth": 0,
+    "dropCapDefaultFontFamily": "Athonite",
+    "dropCapDefaultFontSize": 80,
+    "dropCapDefaultFontWeight": "400",
+    "dropCapDefaultFontStyle": "normal",
+    "dropCapDefaultColor": "#800000",
+    "dropCapDefaultStrokeWidth": 0,
+    "hyphenSpacing": 72
+  },
+  "headers": {
+    "default": {
+      "elements": [
+        {
+          "elementType": "TextBox",
+          "alignment": "left",
+          "color": "#000000",
+          "content": "",
+          "fontSize": 16,
+          "fontFamily": "Omega",
+          "strokeWidth": 0,
+          "height": 19
+        }
+      ]
+    },
+    "odd": {
+      "elements": [
+        {
+          "elementType": "TextBox",
+          "alignment": "left",
+          "color": "#000000",
+          "content": "",
+          "fontSize": 16,
+          "fontFamily": "Omega",
+          "strokeWidth": 0,
+          "height": 19
+        }
+      ]
+    },
+    "even": {
+      "elements": [
+        {
+          "elementType": "TextBox",
+          "alignment": "left",
+          "color": "#000000",
+          "content": "",
+          "fontSize": 16,
+          "fontFamily": "Omega",
+          "strokeWidth": 0,
+          "height": 19
+        }
+      ]
+    },
+    "firstPage": {
+      "elements": [
+        {
+          "elementType": "TextBox",
+          "alignment": "left",
+          "color": "#000000",
+          "content": "",
+          "fontSize": 16,
+          "fontFamily": "Omega",
+          "strokeWidth": 0,
+          "height": 19
+        }
+      ]
+    }
+  },
+  "footers": {
+    "default": {
+      "elements": [
+        {
+          "elementType": "TextBox",
+          "alignment": "center",
+          "color": "#000000",
+          "content": "Text from Holy Transfiguration Monastery\nMusic from \u0395\u03b9\u03c1\u03bc\u03bf\u03bb\u03cc\u03b3\u03b9\u03bf\u03bd \u039a\u03b1\u03c4\u03b1\u03b2\u03b1\u03c3\u03b9\u03ce\u03bd, \u0399\u03c9\u03ac\u03bd\u03bd\u03bf\u03c5 \u03a0\u03c1\u03c9\u03c4\u03bf\u03c8\u03ac\u03bb\u03c4\u03bf\u03c5, p. 483f",
+          "fontSize": 13.333333333333334,
+          "fontFamily": "Alegreya",
+          "strokeWidth": 0,
+          "height": 38
+        }
+      ]
+    },
+    "odd": {
+      "elements": [
+        {
+          "elementType": "TextBox",
+          "alignment": "left",
+          "color": "#000000",
+          "content": "",
+          "fontSize": 16,
+          "fontFamily": "Omega",
+          "strokeWidth": 0,
+          "height": 19
+        }
+      ]
+    },
+    "even": {
+      "elements": [
+        {
+          "elementType": "TextBox",
+          "alignment": "left",
+          "color": "#000000",
+          "content": "",
+          "fontSize": 16,
+          "fontFamily": "Omega",
+          "strokeWidth": 0,
+          "height": 19
+        }
+      ]
+    },
+    "firstPage": {
+      "elements": [
+        {
+          "elementType": "TextBox",
+          "alignment": "left",
+          "color": "#000000",
+          "content": "",
+          "fontSize": 16,
+          "fontFamily": "Omega",
+          "strokeWidth": 0,
+          "height": 19
+        }
+      ]
+    }
+  },
+  "staff": {
+    "elements": [
+      {
+        "elementType": "TextBox",
+        "alignment": "center",
+        "color": "#000000",
+        "content": "Ere the Morning Star\n",
+        "fontSize": 26.666666666666668,
+        "fontFamily": "Alegreya",
+        "strokeWidth": 0,
+        "height": 36
+      },
+      {
+        "elementType": "TextBox",
+        "alignment": "center",
+        "color": "#000000",
+        "content": "\u1f18\u03ba \u03b3\u03b1\u03c3\u03c4\u03c1\u1f78\u03c2 \u1f10\u03c4\u1f73\u03c7\u03b8\u03b7\u03c2 \u03c0\u03c1\u1f78",
+        "fontSize": 16,
+        "fontFamily": "Alegreya",
+        "strokeWidth": 0,
+        "height": 22
+      },
+      {
+        "elementType": "ModeKey",
+        "templateId": 602,
+        "alignment": "center",
+        "mode": 6,
+        "scale": "SoftChromatic",
+        "scaleNote": "Thi",
+        "martyria": "ModeSign.SoftChromatic6",
+        "note": "ModeSign.Vou",
+        "fthoraAboveNote": "SoftChromaticThi_Top",
+        "quantitativeNeumeRight": "KentemataPlusOligon",
+        "color": "#800000",
+        "fontSize": 26.666666666666668,
+        "strokeWidth": 0,
+        "height": 49,
+        "heightAdjustment": 0,
+        "bpm": 120,
+        "useDefaultStyle": true,
+        "ambitusLowNote": "Pa",
+        "ambitusLowRootSign": "Alpha",
+        "ambitusHighNote": "Pa",
+        "ambitusHighRootSign": "Alpha"
+      },
+      {
+        "elementType": "DropCap",
+        "content": "T",
+        "fontFamily": "Athonite",
+        "fontSize": 80,
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "strokeWidth": 0,
+        "color": "#000000",
+        "useDefaultStyle": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "o",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "all",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "men",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "ye",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Klasma_Top",
+        "lyrics": "clear",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "ly",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "be",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "queathed",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "the",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "teach",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Klasma_Top",
+        "lyrics": "ing",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Martyria",
+        "auto": true,
+        "note": "Ni",
+        "rootSign": "SoftChromaticSquiggle",
+        "scale": "SoftChromatic"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusHypsiliRight",
+        "lyrics": "that",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "the",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "Ho",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "ly",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Klasma_Top",
+        "lyrics": "Trin",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "i",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "ty",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "is",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "the",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "Cause",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Klasma_Top",
+        "lyrics": "of",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Martyria",
+        "auto": true,
+        "note": "Ni",
+        "rootSign": "SoftChromaticSquiggle",
+        "scale": "SoftChromatic"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentima",
+        "lyrics": "the",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentimaAbove",
+        "lyrics": "world\u2019s",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "gen",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "er",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentimaBelow",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "a",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "tion,",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "as",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "His",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Petasti",
+        "lyrics": "works",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "plain",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "ly",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "de",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "PetastiPlusKentimaAbove",
+        "lyrics": "clare",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Klasma_Top",
+        "lyrics": "Him;",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Martyria",
+        "auto": true,
+        "note": "Thi",
+        "rootSign": "SoftChromaticSquiggle",
+        "scale": "SoftChromatic"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Petasti",
+        "lyrics": "for,",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "be",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "ing",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentima",
+        "lyrics": "mys",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "tic",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "ly",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "in",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "PetastiWithIson",
+        "lyrics": "spired,",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "ye",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "called",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Petasti",
+        "lyrics": "three",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "and",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "four",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "great",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Petasti",
+        "lyrics": "Coun",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Klasma_Top",
+        "lyrics": "cils,",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Martyria",
+        "auto": true,
+        "note": "Vou",
+        "rootSign": "SoftChromaticSquiggle",
+        "scale": "SoftChromatic"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "PetastiPlusKentimaAbove",
+        "lyrics": "prov",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "ing",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "the",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "cham",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "pi",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "ons",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "of",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "Or",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "tho",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "doxy,",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "O",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "thrice",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "bless",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "ed",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Petasti",
+        "lyrics": "Fa",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Klasma_Top",
+        "lyrics": "thers,",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Martyria",
+        "auto": true,
+        "note": "Vou",
+        "rootSign": "SoftChromaticSquiggle",
+        "scale": "SoftChromatic"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "and",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "ye",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "showed",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "KentemataPlusOligon",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "that",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "the",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "God",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "of",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "Three",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "timeNeume": "Klasma_Top",
+        "vocalExpressionNeume": "Homalon",
+        "lyrics": "Per",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Klasma_Top",
+        "lyrics": "sons",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "is",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Petasti",
+        "lyrics": "our",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "Cre",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Petasti",
+        "lyrics": "a",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Elaphron",
+        "lyrics": "tor",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "Who",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "hath",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentemata",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "made",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "the",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "four",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "el",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "e",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "ments",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "and",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "fash",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "ioned",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "vareia": true,
+        "lyrics": "all",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "of",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "the",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "lyrics": "u",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "ni",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "vareia": true,
+        "lyrics": "verse.",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Dipli",
+        "gorgonNeume": "Gorgon_Top",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Empty"
+      }
+    ]
+  }
+}
