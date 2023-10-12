@@ -93,3 +93,38 @@ prosomoiahelper.generate_prosomoia(
 ```
 
 Example 2 in the `examples` folder contains a concrete example.
+
+### Single word overrides (blessed vs bless-ed)
+
+The word `blessed` is sometimes one syllable and sometimes two depending on whether it is an adjective or verb. If this word appears both ways in the same hymn, then using the `overrides` feature is not enough. Instead, you must use the `word_overrides_by_index` parameter.
+
+For example, let's say that the 65th word of the hymn is `blessed` and that it should be a single syllable. By default, `blessed` is two syllables. To treat the 65th word of the as a single syllable, use the following.
+
+```python
+word_overrides_by_index = dict()
+word_overrides_by_index[65] = "blessed"
+
+prosomoiahelper.generate_prosomoia(
+    text,
+    'automela.byz',
+    'prosomoia.byz',
+    overrides,
+    word_overrides_by_index=word_overrides_by_index)
+```
+
+Example 2 in the `examples` folder contains a concrete example.
+
+### Finding word indices
+
+If you read the above, then you are probably wondering how to find the word indices. To do so, pass `print_word_index=True` to the `generate_prosomoia` method. This will print out a list of words and their indices. This can help you quickly locate the correct index.
+
+See the example below.
+
+```python
+prosomoiahelper.generate_prosomoia(
+    text,
+    'automela.byz',
+    'prosomoia.byz',
+    overrides,
+    print_word_index=True)
+```

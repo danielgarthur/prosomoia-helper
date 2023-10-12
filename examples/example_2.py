@@ -59,5 +59,5 @@ for i, text in enumerate(texts):
         ignored_melismas=ignored_melismas, 
         added_melismas=added_melismas, 
         word_overrides_by_index=word_overrides_by_index,
-        print_syllable_index=True,
+        print_syllable_index=False,
         print_word_index=False)
