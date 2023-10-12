@@ -40,12 +40,17 @@ them naked of their sheepskins * and nobly overcame those thrice-wretched hereti
 we rightfully call you blest.""")
 
 added_melismas = [116]
+ignored_melismas = list()
+word_overrides_by_index = dict()
 
 for i, text in enumerate(texts):
-    if i == 5:
+    if i == 1:
+        word_overrides_by_index[65] = ['blessed']
+    elif i == 2:
+        ignored_melismas = [77]        
+    elif i == 5:
         ignored_melismas = [14, 27]
-    else:
-        ignored_melismas = list()
+
 
     prosomoiahelper.generate_prosomoia(
         text, 
@@ -53,4 +58,6 @@ for i, text in enumerate(texts):
         f'example_2__output_{i+1}.byzx', 
         ignored_melismas=ignored_melismas, 
         added_melismas=added_melismas, 
-        print_syllable_index=False)
+        word_overrides_by_index=word_overrides_by_index,
+        print_syllable_index=True,
+        print_word_index=False)

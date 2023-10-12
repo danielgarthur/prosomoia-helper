@@ -225,7 +225,7 @@
       },
       {
         "elementType": "DropCap",
-        "content": "I",
+        "content": "C",
         "fontFamily": "Athonite",
         "fontSize": 80,
         "fontWeight": "400",
@@ -237,7 +237,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "t",
+        "lyrics": "hrist",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -245,7 +245,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "would",
+        "lyrics": "the",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -254,40 +254,40 @@
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
-        "lyrics": "have",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
+        "lyrics": "Sav",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "suf",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
+        "lyrics": "ior\u2019s",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "lyrics": "ficed",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "Proph",
+        "lyrics": "gar",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
       },
       {
         "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "ment,",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "lyrics": "et",
+        "lyrics": "which",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -295,24 +295,24 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "El",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
+        "lyrics": "had",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "is",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
+        "lyrics": "been",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
-        "lyrics": "se",
+        "lyrics": "sun",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
@@ -326,7 +326,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "lyrics": "us",
+        "lyrics": "dered,",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -341,7 +341,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusHypsiliRight",
-        "lyrics": "to",
+        "lyrics": "rent",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -349,16 +349,16 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "bend",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
+        "lyrics": "a",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
-        "lyrics": "down",
+        "lyrics": "part",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -366,7 +366,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "but",
+        "lyrics": "by",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -375,7 +375,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "lyrics": "once",
+        "lyrics": "dogs",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -383,15 +383,15 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "that",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
+        "lyrics": "shame",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "lyrics": "he",
+        "lyrics": "less",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -399,7 +399,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "thus",
+        "lyrics": "in",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -407,7 +407,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "might",
+        "lyrics": "their",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -416,7 +416,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
-        "lyrics": "quick",
+        "lyrics": "bark",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
@@ -431,7 +431,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "lyrics": "en",
+        "lyrics": "ing,",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -446,7 +446,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentima",
-        "lyrics": "and",
+        "lyrics": "ye",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -454,32 +454,40 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaAbove",
-        "lyrics": "breathe",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "lyrics": "life",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "a",
+        "lyrics": "wise",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
       },
       {
         "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "ly",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "have",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaBelow",
         "vocalExpressionNeume": "Psifiston",
-        "lyrics": "gain",
+        "lyrics": "mend",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "ed,",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -487,15 +495,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "in",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "the",
+        "lyrics": "O",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -503,7 +503,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "dead",
+        "lyrics": "ye",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -511,27 +511,27 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
-        "lyrics": "son",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
+        "lyrics": "ven",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "of",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
+        "lyrics": "er",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
-        "lyrics": "her",
+        "lyrics": "a",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": false
+        "isHyphen": true
       },
       {
         "elementType": "Note",
@@ -541,7 +541,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "that",
+        "lyrics": "ble",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -549,16 +549,16 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusKentimaAbove",
-        "lyrics": "served",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
+        "lyrics": "Fa",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "lyrics": "him;",
+        "lyrics": "thers,",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -573,15 +573,15 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
-        "lyrics": "rath",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
+        "lyrics": "in",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "er,",
+        "lyrics": "no",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -589,7 +589,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "he",
+        "lyrics": "wise",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -597,47 +597,15 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentima",
-        "lyrics": "knelt",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "lyrics": "down",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "lyrics": "sev",
+        "lyrics": "bear",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "en",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "PetastiWithIson",
-        "lyrics": "times,",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "and",
+        "quantitativeNeume": "Ison",
+        "lyrics": "ing",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -645,7 +613,39 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "sev",
+        "lyrics": "to",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "be",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "PetastiWithIson",
+        "lyrics": "hold",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "the",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "na",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
@@ -653,15 +653,15 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
-        "lyrics": "en",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
+        "lyrics": "ked",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "times",
+        "lyrics": "ness",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -670,7 +670,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
-        "lyrics": "bowed",
+        "lyrics": "of",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": false
@@ -683,24 +683,24 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "up",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Petasti",
-        "lyrics": "on",
+        "lyrics": "your",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
       },
       {
         "elementType": "Note",
+        "quantitativeNeume": "Petasti",
+        "lyrics": "Mas",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "lyrics": "him.",
+        "lyrics": "ter,",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -715,7 +715,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusKentimaAbove",
-        "lyrics": "Thus,",
+        "lyrics": "as",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -723,7 +723,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "in",
+        "lyrics": "Shem",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -731,7 +731,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "his",
+        "lyrics": "and",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -739,6 +739,96 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
+        "lyrics": "Japh",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "eth",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "hid",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "their",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "fa",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "ther\u2019s",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "na",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "ked",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "ness",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "once",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "lyrics": "a",
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "fore",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -746,104 +836,17 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "lyrics": "vi",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "lyrics": "sion,",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "he",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "vocalExpressionNeume": "Psifiston",
-        "lyrics": "proph",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "e",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "sied",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "lyrics": "of",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "vocalExpressionNeume": "Psifiston",
-        "lyrics": "your",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "sev",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "isMelisma": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "en",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
         "quantitativeNeume": "Petasti",
-        "lyrics": "gath",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
+        "lyrics": "time.",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "lyrics": "\u2019rings,",
+        "lyrics": "Thus",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -858,7 +861,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "in",
+        "lyrics": "ye",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -866,7 +869,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "the",
+        "lyrics": "shamed",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -874,7 +877,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "lyrics": "which",
+        "lyrics": "that",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": false
@@ -888,39 +891,98 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "lyrics": "ye",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "lyrics": "breathed",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "lyrics": "your",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "lyrics": "quick\u2019",
+        "lyrics": "slay",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
       },
       {
         "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "er",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "of",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "his",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "ning",
+        "lyrics": "fa",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "timeNeume": "Klasma_Top",
+        "vocalExpressionNeume": "Homalon",
+        "lyrics": "ther,",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Klasma_Top",
+        "lyrics": "blessed",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "wretch",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Petasti",
+        "lyrics": "ed",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "Ar",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Petasti",
+        "lyrics": "i",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Elaphron",
+        "lyrics": "us,",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -928,25 +990,6 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "timeNeume": "Klasma_Top",
-        "vocalExpressionNeume": "Homalon",
-        "lyrics": "word",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "timeNeume": "Klasma_Top",
-        "lyrics": "on",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
         "lyrics": "the",
         "isMelisma": false,
         "isMelismaStart": false,
@@ -954,8 +997,17 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Petasti",
-        "lyrics": "death",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "name",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentemata",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "sake",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -970,82 +1022,33 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Petasti",
-        "lyrics": "God",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Elaphron",
-        "lyrics": "the",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "fren",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "lyrics": "Word,",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "zied",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "ness,",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "and",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
-        "vocalExpressionNeume": "Psifiston",
-        "lyrics": "put",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "to",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "death",
-        "isMelisma": false,
-        "isMelismaStart": false,
-        "isHyphen": false
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "vocalExpressionNeume": "Psifiston",
-        "lyrics": "Ar",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "i",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "us",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -1053,7 +1056,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "and",
+        "lyrics": "those",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -1062,7 +1065,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
-        "lyrics": "his",
+        "lyrics": "of",
         "isMelisma": false,
         "isMelismaStart": false,
         "isHyphen": false
@@ -1070,16 +1073,16 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "pro",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
+        "lyrics": "like",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "vareia": true,
-        "lyrics": "fane",
+        "lyrics": "mind",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": false
@@ -1093,27 +1096,27 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "lyrics": "fel",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
+        "lyrics": "and",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "lyrics": "low",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
+        "lyrics": "thought",
+        "isMelisma": false,
+        "isMelismaStart": false,
+        "isHyphen": false
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "lyrics": "la",
+        "lyrics": "with",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": true
+        "isHyphen": false
       },
       {
         "elementType": "Note",
@@ -1124,10 +1127,10 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "bor",
+        "lyrics": "him.",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": true
+        "isHyphen": false
       },
       {
         "elementType": "Note",
@@ -1138,10 +1141,9 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vareia": true,
-        "lyrics": "ers.",
+        "lyrics": "rank.",
         "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": false
+        "isMelismaStart": true
       },
       {
         "elementType": "Note",

@@ -37,6 +37,7 @@ default_overrides__en_US['mysticly'] = 'mys-tic-ly'
 default_overrides__en_US['naked'] = 'na-ked'
 default_overrides__en_US['nakedness'] = 'na-ked-ness'
 default_overrides__en_US['nobly'] = 'nob-ly'
+default_overrides__en_US['orthodoxy'] = 'or-tho-dox-y'
 default_overrides__en_US['overcame'] = 'o-ver-came'
 default_overrides__en_US['prophet'] = 'proph-et'
 default_overrides__en_US['quick’ning'] = 'quick’-ning'
@@ -53,7 +54,7 @@ default_overrides__en_US['virtue'] = 'vir-tue'
 default_overrides = dict()
 default_overrides['en_US'] = default_overrides__en_US
 
-def generate_prosomoia(text: str, input_path: str, output_path: str, overrides=dict(), ignored_melismas=list(), added_melismas=list(), print_syllable_index = False, lang = "en_US"):
+def generate_prosomoia(text: str, input_path: str, output_path: str, overrides=dict(), word_overrides_by_index=dict(), ignored_melismas=list(), added_melismas=list(), print_syllable_index = False, print_word_index = False, lang = "en_US"):
     """
     Generates a prosomoia for a given text based on a given model melody in byzx format
 
@@ -66,7 +67,7 @@ def generate_prosomoia(text: str, input_path: str, output_path: str, overrides=d
     :param print_syllable_index bool: If true, a list of syllables and their corresponding element indices will be printed
     :param lang str: The language to use for the hyphenation dictionary
     """
-    words = __preprocess_text(text, overrides, lang)
+    words = __preprocess_text(text, overrides, word_overrides_by_index, print_word_index, lang)
 
     #read the file
     score = None
@@ -187,7 +188,7 @@ def __get_overrides(lang, overrides):
         return overrides
 
 
-def __preprocess_text(text: str, overrides=dict(), lang = "en_US"):
+def __preprocess_text(text: str, overrides=dict(), word_overrides_by_index=dict(), print_word_index = False, lang = "en_US"):
     all_overrides = __get_overrides(lang, overrides)
 
     # remove * and new lines
@@ -201,8 +202,17 @@ def __preprocess_text(text: str, overrides=dict(), lang = "en_US"):
     dic = pyphen.Pyphen(lang=lang)
 
     # loop over the words and hyphenate
-    for w in words:
+    for i, w in enumerate(words):
         if w != '':
+            # print information for debugging and determining the indices for 
+            # ignored or added melismas
+            if print_word_index:
+                print(f'{i}: {w}')
+
+            if i in word_overrides_by_index:
+                syllables.append(word_overrides_by_index[i])
+                continue
+
             temp = []
 
             # save punctuation for later, but remove it for now
