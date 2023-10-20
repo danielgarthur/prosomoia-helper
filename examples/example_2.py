@@ -41,9 +41,10 @@ we rightfully call you blest.""")
 
 added_melismas = [116]
 ignored_melismas = list()
-word_overrides_by_index = dict()
 
 for i, text in enumerate(texts):
+    word_overrides_by_index = dict()
+    
     if i == 1:
         word_overrides_by_index[65] = ['blessed']
     elif i == 2:
