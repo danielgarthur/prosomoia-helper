@@ -2,111 +2,112 @@ import json
 import pyphen
 import zipfile
 
-default_overrides__en_US = dict()
+default_overrides__en_US = {
 
 # Names
-default_overrides__en_US['apollinarius'] = 'a-pol-lin-ar-i-us'
-default_overrides__en_US['arius'] = 'ar-i-us'
-default_overrides__en_US['averkios'] = 'a-ver-ki-os'
-default_overrides__en_US['cleopas'] = 'cle-o-pas'
-default_overrides__en_US['dioscorus'] = 'di-o-scor-us'
-default_overrides__en_US['elisseus'] = 'el-is-se-us'
-default_overrides__en_US['emmaus'] = 'em-ma-us'
-default_overrides__en_US['germanos'] = 'ger-man-os'
-default_overrides__en_US['japheth'] = 'japh-eth'
-default_overrides__en_US['macedonius'] = 'mac-e-don-i-us'
-default_overrides__en_US['nestorius'] = 'nes-tor-i-us'
-default_overrides__en_US['pelagia'] = 'pel-a-gi-a'
-default_overrides__en_US['sabellius'] = 'sab-el-li-us'
-default_overrides__en_US["sev'rus"] = "sev'-rus"
-default_overrides__en_US['sion'] = 'si-on'
+"apollinarius": "a-pol-lin-ar-i-us",
+"arius": "ar-i-us",
+"averkios": "a-ver-ki-os",
+"cleopas": "cle-o-pas",
+"dioscorus": "di-o-scor-us",
+"elisseus": "el-is-se-us",
+"emmaus": "em-ma-us",
+"germanos": "ger-man-os",
+"japheth": "japh-eth",
+"macedonius": "mac-e-don-i-us",
+"nestorius": "nes-tor-i-us",
+"pelagia": "pel-a-gi-a",
+"sabellius": "sab-el-li-us",
+"sev'rus": "sev'-rus",
+"sion": "si-on",
 
-default_overrides__en_US['abode'] = 'a-bode'
-default_overrides__en_US['added'] = 'add-ed'
-default_overrides__en_US['aforetime'] = 'a-fore-time'
-default_overrides__en_US['alabaster'] = 'al-a-bas-ter'
-default_overrides__en_US['again'] = 'a-gain'
-default_overrides__en_US['alone'] = 'a-lone'
-default_overrides__en_US['anew'] = 'a-new'
-default_overrides__en_US['apart'] = 'a-part'
-default_overrides__en_US['apostle'] = 'a-pos-tle'
-default_overrides__en_US['apostles'] = 'a-pos-tles'
-default_overrides__en_US['arising'] = 'a-ris-ing'
-default_overrides__en_US['asleep'] = 'a-sleep'
-default_overrides__en_US['beheldest'] = 'be-held-est'
-default_overrides__en_US['blessed'] = 'bless-ed'
-default_overrides__en_US['body'] = 'bod-y'
-default_overrides__en_US['canon'] = 'can-on'
-default_overrides__en_US['comforter'] = 'com-fort-er'
-default_overrides__en_US['covenant'] = 'cov-en-ant'
-default_overrides__en_US['creator'] = 'cre-a-tor'
-default_overrides__en_US['demons'] = 'de-mons'
-default_overrides__en_US['deeply'] = 'deep-ly'
-default_overrides__en_US['diseases'] = 'dis-eas-es'
-default_overrides__en_US['earnestly'] = 'earn-est-ly'
-default_overrides__en_US['entreaties'] = 'en-treat-ies'
-default_overrides__en_US['equal'] = 'e-qual'
-default_overrides__en_US['even'] = 'ev-en'
-default_overrides__en_US['fashioner'] = 'fash-ion-er'
-default_overrides__en_US['fiery'] = 'fier-y'
-default_overrides__en_US['fragrancy'] = 'fra-gran-cy'
-default_overrides__en_US['fulfiller'] = 'ful-fill-er'
-default_overrides__en_US['heldest'] = 'held-est'
-default_overrides__en_US['heretics'] = 'her-i-tics'
-default_overrides__en_US['giveth'] = 'giv-eth'
-default_overrides__en_US['gospel'] = 'gos-pel'
-default_overrides__en_US['guardeth'] = 'guard-eth'
-default_overrides__en_US['greater'] = 'great-er'
-default_overrides__en_US['healest'] = 'heal-est'
-default_overrides__en_US['holy'] = 'ho-ly'
-default_overrides__en_US["hon'rable"] = "hon'-ra-ble"
-default_overrides__en_US['illumineth'] = 'il-lum-in-eth'
-default_overrides__en_US['inscriber'] = 'in-scrib-er'
-default_overrides__en_US['knoweth'] = 'know-eth'
-default_overrides__en_US['luminary'] = 'lum-in-ar-y'
-default_overrides__en_US['madest'] = 'ma-dest'
-default_overrides__en_US['maladies'] = 'mal-a-dies'
-default_overrides__en_US['many'] = 'man-y'
-default_overrides__en_US['marvelous'] = 'mar-vel-ous'
-default_overrides__en_US['mysticly'] = 'mys-tic-ly'
-default_overrides__en_US['mystery'] = 'mys-ter-y'
-default_overrides__en_US['naked'] = 'na-ked'
-default_overrides__en_US['nakedness'] = 'na-ked-ness'
-default_overrides__en_US['noetic'] = 'no-et-ic'
-default_overrides__en_US['nobly'] = 'nob-ly'
-default_overrides__en_US['obedience'] = 'o-be-di-ence'
-default_overrides__en_US['odor'] = 'od-or'
-default_overrides__en_US['orthodoxy'] = 'or-tho-dox-y'
-default_overrides__en_US['overcame'] = 'o-ver-came'
-default_overrides__en_US['paradise'] = 'par-a-dise'
-default_overrides__en_US['physician'] = 'phys-i-cian'
-default_overrides__en_US['piety'] = 'pi-e-ty'
-default_overrides__en_US['prophet'] = 'proph-et'
-default_overrides__en_US['putting'] = 'put-ting'
-default_overrides__en_US["quick'ning"] = "quick'-ning"
-default_overrides__en_US['raineth'] = 'rain-eth'
-default_overrides__en_US['rather'] = 'rath-er'
-default_overrides__en_US['record'] = 'rec-ord'
-default_overrides__en_US['recorded'] = 're-cord-ed'
-default_overrides__en_US['recorder'] = 're-cord-er'
-default_overrides__en_US['revered'] = 'rev-ered'
-default_overrides__en_US["rev'rence"] = "rev'-rence"
-default_overrides__en_US["sep'rately"] = "sep'-rate-ly"
-default_overrides__en_US["sov'reign"] = "sov'-reign"
-default_overrides__en_US['sundry'] = "sun-dry"
-default_overrides__en_US['tabernacle'] = "tab-er-na-cle"
-default_overrides__en_US['tablets'] = "tab-lets"
-default_overrides__en_US['taughtest'] = "taught-est"
-default_overrides__en_US["temp'rance"] = "temp'-rance"
-default_overrides__en_US["temp'rance"] = "temp'-rance"
-default_overrides__en_US['thereafter'] = "there-af-ter"
-default_overrides__en_US['treasury'] = "trea-sur-y"
-default_overrides__en_US["tyrant"] = "ty-rant"
-default_overrides__en_US['unaware'] = 'un-a-ware'
-default_overrides__en_US['unerring'] = 'un-err-ing'
-default_overrides__en_US['universe'] = 'u-ni-verse'
-default_overrides__en_US["ven'rable"] = "ven'-ra-ble"
-default_overrides__en_US['virtue'] = 'vir-tue'
+"abode": "a-bode",
+"added": "add-ed",
+"aforetime": "a-fore-time",
+"alabaster": "al-a-bas-ter",
+"again": "a-gain",
+"alone": "a-lone",
+"anew": "a-new",
+"apart": "a-part",
+"apostle": "a-pos-tle",
+"apostles": "a-pos-tles",
+"arising": "a-ris-ing",
+"asleep": "a-sleep",
+"beheldest": "be-held-est",
+"blessed": "bless-ed",
+"body": "bod-y",
+"canon": "can-on",
+"comforter": "com-fort-er",
+"covenant": "cov-en-ant",
+"creator": "cre-a-tor",
+"demons": "de-mons",
+"deeply": "deep-ly",
+"diseases": "dis-eas-es",
+"earnestly": "earn-est-ly",
+"entreaties": "en-treat-ies",
+"equal": "e-qual",
+"even": "ev-en",
+"fashioner": "fash-ion-er",
+"fiery": "fier-y",
+"fragrancy": "fra-gran-cy",
+"fulfiller": "ful-fill-er",
+"heldest": "held-est",
+"heretics": "her-i-tics",
+"giveth": "giv-eth",
+"gospel": "gos-pel",
+"guardeth": "guard-eth",
+"greater": "great-er",
+"healest": "heal-est",
+"holy": "ho-ly",
+"hon'rable": "hon'-ra-ble",
+"illumineth": "il-lum-in-eth",
+"inscriber": "in-scrib-er",
+"knoweth": "know-eth",
+"luminary": "lum-in-ar-y",
+"madest": "ma-dest",
+"maladies": "mal-a-dies",
+"many": "man-y",
+"marvelous": "mar-vel-ous",
+"mysticly": "mys-tic-ly",
+"mystery": "mys-ter-y",
+"naked": "na-ked",
+"nakedness": "na-ked-ness",
+"noetic": "no-et-ic",
+"nobly": "nob-ly",
+"obedience": "o-be-di-ence",
+"odor": "od-or",
+"orthodoxy": "or-tho-dox-y",
+"overcame": "o-ver-came",
+"paradise": "par-a-dise",
+"physician": "phys-i-cian",
+"piety": "pi-e-ty",
+"prophet": "proph-et",
+"putting": "put-ting",
+"quick'ning": "quick'-ning",
+"raineth": "rain-eth",
+"rather": "rath-er",
+"record": "rec-ord",
+"recorded": "re-cord-ed",
+"recorder": "re-cord-er",
+"revered": "rev-ered",
+"rev'rence": "rev'-rence",
+"sep'rately": "sep'-rate-ly",
+"sov'reign": "sov'-reign",
+"sundry": "sun-dry",
+"tabernacle": "tab-er-na-cle",
+"tablets": "tab-lets",
+"taughtest": "taught-est",
+"temp'rance": "temp'-rance",
+"temp'rance": "temp'-rance",
+"thereafter": "there-af-ter",
+"treasury": "trea-sur-y",
+"tyrant": "ty-rant",
+"unaware": "un-a-ware",
+"unerring": "un-err-ing",
+"universe": "u-ni-verse",
+"ven'rable": "ven'-ra-ble",
+"virtue": "vir-tue",
+}
 
 default_overrides = dict()
 default_overrides['en_US'] = default_overrides__en_US
