@@ -1,113 +1,7 @@
 import json
 import pyphen
 import zipfile
-
-default_overrides__en_US = {
-
-# Names
-"apollinarius": "a-pol-lin-ar-i-us",
-"arius": "ar-i-us",
-"averkios": "a-ver-ki-os",
-"cleopas": "cle-o-pas",
-"dioscorus": "di-o-scor-us",
-"elisseus": "el-is-se-us",
-"emmaus": "em-ma-us",
-"germanos": "ger-man-os",
-"japheth": "japh-eth",
-"macedonius": "mac-e-don-i-us",
-"nestorius": "nes-tor-i-us",
-"pelagia": "pel-a-gi-a",
-"sabellius": "sab-el-li-us",
-"sev'rus": "sev'-rus",
-"sion": "si-on",
-
-"abode": "a-bode",
-"added": "add-ed",
-"aforetime": "a-fore-time",
-"alabaster": "al-a-bas-ter",
-"again": "a-gain",
-"alone": "a-lone",
-"anew": "a-new",
-"apart": "a-part",
-"apostle": "a-pos-tle",
-"apostles": "a-pos-tles",
-"arising": "a-ris-ing",
-"asleep": "a-sleep",
-"beheldest": "be-held-est",
-"blessed": "bless-ed",
-"body": "bod-y",
-"canon": "can-on",
-"comforter": "com-fort-er",
-"covenant": "cov-en-ant",
-"creator": "cre-a-tor",
-"demons": "de-mons",
-"deeply": "deep-ly",
-"diseases": "dis-eas-es",
-"earnestly": "earn-est-ly",
-"entreaties": "en-treat-ies",
-"equal": "e-qual",
-"even": "ev-en",
-"fashioner": "fash-ion-er",
-"fiery": "fier-y",
-"fragrancy": "fra-gran-cy",
-"fulfiller": "ful-fill-er",
-"heldest": "held-est",
-"heretics": "her-i-tics",
-"giveth": "giv-eth",
-"gospel": "gos-pel",
-"guardeth": "guard-eth",
-"greater": "great-er",
-"healest": "heal-est",
-"holy": "ho-ly",
-"hon'rable": "hon'-ra-ble",
-"illumineth": "il-lum-in-eth",
-"inscriber": "in-scrib-er",
-"knoweth": "know-eth",
-"luminary": "lum-in-ar-y",
-"madest": "ma-dest",
-"maladies": "mal-a-dies",
-"many": "man-y",
-"marvelous": "mar-vel-ous",
-"mysticly": "mys-tic-ly",
-"mystery": "mys-ter-y",
-"naked": "na-ked",
-"nakedness": "na-ked-ness",
-"noetic": "no-et-ic",
-"nobly": "nob-ly",
-"obedience": "o-be-di-ence",
-"odor": "od-or",
-"orthodoxy": "or-tho-dox-y",
-"overcame": "o-ver-came",
-"paradise": "par-a-dise",
-"physician": "phys-i-cian",
-"piety": "pi-e-ty",
-"prophet": "proph-et",
-"putting": "put-ting",
-"quick'ning": "quick'-ning",
-"raineth": "rain-eth",
-"rather": "rath-er",
-"record": "rec-ord",
-"recorded": "re-cord-ed",
-"recorder": "re-cord-er",
-"revered": "rev-ered",
-"rev'rence": "rev'-rence",
-"sep'rately": "sep'-rate-ly",
-"sov'reign": "sov'-reign",
-"sundry": "sun-dry",
-"tabernacle": "tab-er-na-cle",
-"tablets": "tab-lets",
-"taughtest": "taught-est",
-"temp'rance": "temp'-rance",
-"temp'rance": "temp'-rance",
-"thereafter": "there-af-ter",
-"treasury": "trea-sur-y",
-"tyrant": "ty-rant",
-"unaware": "un-a-ware",
-"unerring": "un-err-ing",
-"universe": "u-ni-verse",
-"ven'rable": "ven'-ra-ble",
-"virtue": "vir-tue",
-}
+from .default_overrides__en_US import default_overrides__en_US
 
 default_overrides = dict()
 default_overrides['en_US'] = default_overrides__en_US
@@ -276,9 +170,9 @@ def __preprocess_text(text: str, overrides=dict(), word_overrides_by_index=dict(
             # save punctuation for later, but remove it for now
             punctuation = ''
             
-            if '.' in w or ',' in w or ';' in w or ':' in w:
+            if '.' in w or ',' in w or ';' in w or ':' in w or '!' in w:
                 punctuation = w[len(w) - 1]
-                w = w.replace('.', '').replace(',', '').replace(';', '').replace(':', '')
+                w = w.replace('.', '').replace(',', '').replace(';', '').replace(':', '').replace('!', '')
             elif "'s" in w:
                 punctuation = "'s"
                 w = w.replace("'s", '')
