@@ -170,9 +170,9 @@ def __preprocess_text(text: str, overrides=dict(), word_overrides_by_index=dict(
             # save punctuation for later, but remove it for now
             punctuation = ''
             
-            if '.' in w or ',' in w or ';' in w or ':' in w or '!' in w:
+            if '.' in w or ',' in w or ';' in w or ':' in w or '!' in w or '?' in w:
                 punctuation = w[len(w) - 1]
-                w = w.replace('.', '').replace(',', '').replace(';', '').replace(':', '').replace('!', '')
+                w = w.replace('.', '').replace(',', '').replace(';', '').replace(':', '').replace('!', '').replace('?', '')
             elif "'s" in w:
                 punctuation = "'s"
                 w = w.replace("'s", '')
