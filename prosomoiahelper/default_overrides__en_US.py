@@ -326,7 +326,7 @@ default_overrides__en_US = {
     "present": "pres-ent",
     "prison": "pris-on",
     "prizewinning": "prize-win-ning",
-    "prizewinnering": "prize-win-ner",
+    "prizewinner": "prize-win-ner",
     "proclaimer": "pro-claim-er",
     "promise": "prom-ise",
     "promised": "prom-ised",
